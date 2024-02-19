@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "human-detector"
+version = "1.0.0"
+description = "End-to-end human detection project"
+authors = ["Trofimov Ivan <trofimov.is@phystech.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
